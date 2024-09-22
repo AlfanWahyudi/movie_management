@@ -1,7 +1,7 @@
 <?php
 
 use App\Livewire\Dashboard\Index;
-use App\Livewire\Layouts\Dashboard;
+use App\Livewire\Pages\Dashboard\IndexDashboard;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', Index::class)->name('dashboard');
+Route::get('/', IndexDashboard::class)->name('dashboard');
